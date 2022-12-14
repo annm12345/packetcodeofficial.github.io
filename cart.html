@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S&S SHOP</title>
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">  
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div style="display: flex;justify-content:space-between;align-items: center;">
+            <a href="#"><img src="img/logo2.png" alt=""></a>
+            <h2 >S&S STORE</h2>
+        </div>
+        <div class="search-bar">
+            <input type="search" placeholder="Search for desrie products">
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+        </div>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><i class="fa-solid fa-magnifying-glass search-btn"></i></li>
+                <li><a class="active" href="cart.html" id="lg-bag"><i class="fa-solid fa-bag-shopping"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-square-xmark"></i></a>
+                <li><a href="login.html">Login | Register</a></li>
+            </ul>
+        </div> 
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+            <i id="bar" class="fa-solid fa-outdent"></i>
+        </div>
+    </section>
+    <section id="page-header" class="cart-header">
+        <h4>#Cart</h4>
+    </section>
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product Name</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/garnier1.jpg" alt=""></td>
+                    <td>Garnier Face Cream</td>
+                    <td>Ks 7500</td>
+                    <td><input type="number"></td>
+                    <td>Ks 7500</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/cook oil.jpg" alt=""></td>
+                    <td>Cook oil</td>
+                    <td>Ks 4500</td>
+                    <td><input type="number"></td>
+                    <td>Ks 4500</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/glade air fresher.jpg" alt=""></td>
+                    <td>Glade air fresher</td>
+                    <td>Ks 2000</td>
+                    <td><input type="number"></td>
+                    <td>Ks 2000</td>
+                </tr>
+                <tr>
+                    <td><i class="fa-solid fa-trash"></i></td>
+                    <td><img src="img/A4 parking.jpg" alt=""></td>
+                    <td>A4 70kg</td>
+                    <td>Ks 9500</td>
+                    <td><input type="number"></td>
+                    <td>Ks 9500</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Coupon Code">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart subtotal</td>
+                    <td>Ks 23500</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td> <strong>Total</strong> </td>
+                    <td> <strong>Ks 23500</strong> </td>
+                </tr>
+            </table>
+            <a href="checkout.html"><button class="normal">Proceed to checkout</button></a>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img src="img/logo2.png" alt="" style="width: 150px;">
+            <h3>Contact</h3>
+            <p><strong>Address : </strong>HEC, DSA, Pysin Oo Lwin, Mandalay Division, Myanmar.</p>
+            <p><strong>Phone : </strong>+959123456789 (or) +959987654321</p>
+            <p><strong>Hours : </strong>06:30-21:00, 7days</p>
+            <div class="follow">
+                <h3>Follow Us</h3>
+                <div class="icon">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-tiktok"></i>
+                    <i class="fa-brands fa-viber"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h3>About</h3>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h3>My Account</h3>
+            <a href="#">Sign In</a>
+            <a href="#">View cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h3>Install App</h3>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/app.png" alt="">
+                <img src="img/play.jpg" alt="">
+            </div>
+            <p>Secured Payment Gateway</p>
+            <img src="img/kpay.png" alt="">
+            <img src="img/wave.jpg" alt="">
+        </div>
+        <div class="copyright">
+            <p>© 2023, HEC, DSA , Computer Science , aungnyinyimin32439@gmail.com</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
